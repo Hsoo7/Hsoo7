@@ -1,1 +1,1 @@
-worker: bash hso.py
+worker: bash sython.py

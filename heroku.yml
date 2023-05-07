@@ -4,4 +4,4 @@ build:
 run:
   worker:
     command:
-      - python3 hso.py
+      - python3 sython.py

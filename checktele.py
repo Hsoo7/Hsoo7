@@ -268,7 +268,7 @@ async def _(event):
                     if "A wait of" in str(eee):
                         break
                     else:
-                        await sython.send_message(event.chat.id, " اجاك متاح !")
+                        await sython.send_message(event.chat.id, "تدلل جبتلك متاح !")
             else:
                 pass
             trys += 1
@@ -313,11 +313,11 @@ async def _(event):
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
 ╔════════════════
-║𝐔𝐒𝐄𝐑 : @{username}                
+║𝐔𝐒𝐄𝐑 : {@u_2_m}                
 ╠════════════════
-║hso : @scsss7 جبتلك يوزر ياب   
+║hso :  جبتلك يوزر ياب   
 ╠════════════════
-║✯ 𝗕𝗬  @scss7 & @k_2_n ✯   
+║✯ 𝗕𝗬  :[@u_2_m]   
 ╚════════════════
     ''')
                         break
@@ -350,11 +350,11 @@ async def _(event):
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
 ╔════════════════
-║𝐔𝐒𝐄𝐑 : @{username}                
+║𝐔𝐒𝐄𝐑 : @{@u_2_m}                
 ╠════════════════
 ║hso : @scsss7   
 ╠════════════════
-║✯ 𝗕𝗬 @scss7 & @k_2_n✯   
+║✯ 𝗕𝗬:[@k_2_n]  
 ╚════════════════
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
